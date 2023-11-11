@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Devops.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Devops.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Devops.Shared.dll": {}
+        }
       }
     }
   },
@@ -460,10 +470,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Devops.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Devops.Shared/Devops.Shared.csproj",
+      "msbuildProject": "../Devops.Shared/Devops.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Devops.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -500,7 +516,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Employee\\DevopsTutorial\\Devops.Shared\\Devops.Shared.csproj": {
+              "projectPath": "D:\\Employee\\DevopsTutorial\\Devops.Shared\\Devops.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

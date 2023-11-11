@@ -1,5 +1,3 @@
-D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\appsettings.Development.json
-D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\appsettings.json
 D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\Devops.WebApi.exe
 D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\Devops.WebApi.deps.json
 D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\Devops.WebApi.runtimeconfig.json
@@ -31,3 +29,5 @@ D:\Employee\DevopsTutorial\Devops.WebApi\obj\Debug\net7.0\refint\Devops.WebApi.d
 D:\Employee\DevopsTutorial\Devops.WebApi\obj\Debug\net7.0\Devops.WebApi.pdb
 D:\Employee\DevopsTutorial\Devops.WebApi\obj\Debug\net7.0\Devops.WebApi.genruntimeconfig.cache
 D:\Employee\DevopsTutorial\Devops.WebApi\obj\Debug\net7.0\ref\Devops.WebApi.dll
+D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\Devops.Shared.dll
+D:\Employee\DevopsTutorial\Devops.WebApi\bin\Debug\net7.0\Devops.Shared.pdb
