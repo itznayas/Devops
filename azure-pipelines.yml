@@ -6,8 +6,8 @@
 trigger:
 - none
 
-pool:
- vmImage: 'windows-latest'
+pool: MyComputerAgent
+
 
 
 variables:
