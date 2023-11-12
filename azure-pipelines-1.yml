@@ -43,6 +43,7 @@ stages:
                        IISDeploymentType: 'IISWebsite'
                        ActionIISWebsite: 'StopWebsite'
                        StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
+
                    - task: IISWebAppDeploymentOnMachineGroup@0
                      name: 'DeployIIS'
                      displayName: 'Deploy IIS Website'
